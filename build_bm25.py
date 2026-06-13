@@ -3,7 +3,7 @@ from ingestion.markdown_cleaner import MarkdownCleaner
 
 from chunking.chunker import Chunker
 
-from retrieval.bm25_store import BM25Store
+from indexing.bm25_store import BM25Store
 
 
 loader = MarkdownLoader(

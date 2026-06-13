@@ -1,0 +1,606 @@
+{
+    "summary": {
+        "total_queries": 30,
+        "average_hit_rate": 1.0,
+        "average_recall": 0.6672,
+        "average_mrr": 0.8528
+    },
+    "query_results": [
+        {
+            "query": "What are path parameters?",
+            "difficulty": "easy",
+            "relevant_chunk_ids": [
+                "1503",
+                "1504",
+                "1493"
+            ],
+            "retrieved_chunk_ids": [
+                "1503",
+                "1514",
+                "1518",
+                "1517",
+                "1504"
+            ],
+            "hit_rate": 1,
+            "recall": 0.6667,
+            "mrr": 1.0
+        },
+        {
+            "query": "What are query parameters?",
+            "difficulty": "easy",
+            "relevant_chunk_ids": [
+                "1547",
+                "1548",
+                "1549"
+            ],
+            "retrieved_chunk_ids": [
+                "1547",
+                "1538",
+                "1548",
+                "1549",
+                "1356"
+            ],
+            "hit_rate": 1,
+            "recall": 1.0,
+            "mrr": 1.0
+        },
+        {
+            "query": "What is a request body?",
+            "difficulty": "easy",
+            "relevant_chunk_ids": [
+                "1380",
+                "1383",
+                "1387"
+            ],
+            "retrieved_chunk_ids": [
+                "1380",
+                "1229",
+                "1388",
+                "1233",
+                "1352"
+            ],
+            "hit_rate": 1,
+            "recall": 0.3333,
+            "mrr": 1.0
+        },
+        {
+            "query": "How do I upload files in FastAPI?",
+            "difficulty": "easy",
+            "relevant_chunk_ids": [
+                "1554",
+                "1559",
+                "1561",
+                "1571"
+            ],
+            "retrieved_chunk_ids": [
+                "1303",
+                "1561",
+                "1554",
+                "1144",
+                "1137"
+            ],
+            "hit_rate": 1,
+            "recall": 0.5,
+            "mrr": 0.5
+        },
+        {
+            "query": "What are dependencies in FastAPI?",
+            "difficulty": "easy",
+            "relevant_chunk_ids": [
+                "1701",
+                "93",
+                "1284"
+            ],
+            "retrieved_chunk_ids": [
+                "93",
+                "1701",
+                "1713",
+                "1336",
+                "1684"
+            ],
+            "hit_rate": 1,
+            "recall": 0.6667,
+            "mrr": 1.0
+        },
+        {
+            "query": "What are background tasks?",
+            "difficulty": "easy",
+            "relevant_chunk_ids": [
+                "1318",
+                "1283",
+                "1321",
+                "1319"
+            ],
+            "retrieved_chunk_ids": [
+                "1318",
+                "1320",
+                "1321",
+                "1324",
+                "1325"
+            ],
+            "hit_rate": 1,
+            "recall": 0.5,
+            "mrr": 1.0
+        },
+        {
+            "query": "What is middleware?",
+            "difficulty": "easy",
+            "relevant_chunk_ids": [
+                "1479",
+                "1480",
+                "1482"
+            ],
+            "retrieved_chunk_ids": [
+                "1479",
+                "964",
+                "1483",
+                "1482",
+                "1291"
+            ],
+            "hit_rate": 1,
+            "recall": 0.6667,
+            "mrr": 1.0
+        },
+        {
+            "query": "What are response models?",
+            "difficulty": "easy",
+            "relevant_chunk_ids": [
+                "1580",
+                "1596",
+                "1593",
+                "1595"
+            ],
+            "retrieved_chunk_ids": [
+                "1596",
+                "1580",
+                "1590",
+                "1595",
+                "1587"
+            ],
+            "hit_rate": 1,
+            "recall": 0.75,
+            "mrr": 1.0
+        },
+        {
+            "query": "What are WebSockets?",
+            "difficulty": "easy",
+            "relevant_chunk_ids": [
+                "1064",
+                "1067",
+                "1304"
+            ],
+            "retrieved_chunk_ids": [
+                "1304",
+                "1065",
+                "1305",
+                "1064",
+                "1067"
+            ],
+            "hit_rate": 1,
+            "recall": 1.0,
+            "mrr": 1.0
+        },
+        {
+            "query": "How does FastAPI handle form data?",
+            "difficulty": "easy",
+            "relevant_chunk_ids": [
+                "1576",
+                "1574",
+                "1565",
+                "1558"
+            ],
+            "retrieved_chunk_ids": [
+                "1576",
+                "1558",
+                "1571",
+                "419",
+                "1565"
+            ],
+            "hit_rate": 1,
+            "recall": 0.75,
+            "mrr": 1.0
+        },
+        {
+            "query": "How can users log in and access protected endpoints?",
+            "difficulty": "medium",
+            "relevant_chunk_ids": [
+                "1720",
+                "1725",
+                "1770",
+                "1771",
+                "1735",
+                "1724"
+            ],
+            "retrieved_chunk_ids": [
+                "1038",
+                "1735",
+                "1096",
+                "1087",
+                "1712"
+            ],
+            "hit_rate": 1,
+            "recall": 0.1667,
+            "mrr": 0.5
+        },
+        {
+            "query": "How can I validate path parameters?",
+            "difficulty": "medium",
+            "relevant_chunk_ids": [
+                "1493",
+                "1506",
+                "1495",
+                "1499"
+            ],
+            "retrieved_chunk_ids": [
+                "1358",
+                "1495",
+                "1355",
+                "1529",
+                "164"
+            ],
+            "hit_rate": 1,
+            "recall": 0.25,
+            "mrr": 0.5
+        },
+        {
+            "query": "How do response models filter output data?",
+            "difficulty": "medium",
+            "relevant_chunk_ids": [
+                "1578",
+                "1579",
+                "1582",
+                "1584",
+                "1595"
+            ],
+            "retrieved_chunk_ids": [
+                "1596",
+                "1578",
+                "1582",
+                "994",
+                "960"
+            ],
+            "hit_rate": 1,
+            "recall": 0.4,
+            "mrr": 0.5
+        },
+        {
+            "query": "How can I upload files and form data together?",
+            "difficulty": "medium",
+            "relevant_chunk_ids": [
+                "1569",
+                "1571",
+                "1572"
+            ],
+            "retrieved_chunk_ids": [
+                "1571",
+                "1572",
+                "1561",
+                "1569",
+                "1563"
+            ],
+            "hit_rate": 1,
+            "recall": 1.0,
+            "mrr": 1.0
+        },
+        {
+            "query": "How do OAuth2 scopes work?",
+            "difficulty": "medium",
+            "relevant_chunk_ids": [
+                "1084",
+                "1085",
+                "1087",
+                "1093",
+                "1088"
+            ],
+            "retrieved_chunk_ids": [
+                "1758",
+                "1084",
+                "1085",
+                "1087",
+                "807"
+            ],
+            "hit_rate": 1,
+            "recall": 0.6,
+            "mrr": 0.5
+        },
+        {
+            "query": "How does dependency injection work in FastAPI?",
+            "difficulty": "medium",
+            "relevant_chunk_ids": [
+                "1701",
+                "1709",
+                "93",
+                "1700"
+            ],
+            "retrieved_chunk_ids": [
+                "1701",
+                "1709",
+                "1322",
+                "1711",
+                "93"
+            ],
+            "hit_rate": 1,
+            "recall": 0.75,
+            "mrr": 1.0
+        },
+        {
+            "query": "How can I run tasks after sending a response?",
+            "difficulty": "medium",
+            "relevant_chunk_ids": [
+                "1318",
+                "1283",
+                "1321"
+            ],
+            "retrieved_chunk_ids": [
+                "1318",
+                "1283",
+                "325",
+                "1481",
+                "876"
+            ],
+            "hit_rate": 1,
+            "recall": 0.6667,
+            "mrr": 1.0
+        },
+        {
+            "query": "How do cookie parameters work in FastAPI?",
+            "difficulty": "medium",
+            "relevant_chunk_ids": [
+                "1398",
+                "1396",
+                "1392",
+                "1399"
+            ],
+            "retrieved_chunk_ids": [
+                "1398",
+                "997",
+                "996",
+                "1392",
+                "404"
+            ],
+            "hit_rate": 1,
+            "recall": 0.5,
+            "mrr": 1.0
+        },
+        {
+            "query": "How do asynchronous path operation functions work?",
+            "difficulty": "medium",
+            "relevant_chunk_ids": [
+                "40",
+                "23",
+                "24",
+                "33"
+            ],
+            "retrieved_chunk_ids": [
+                "33",
+                "40",
+                "23",
+                "1709",
+                "1707"
+            ],
+            "hit_rate": 1,
+            "recall": 0.75,
+            "mrr": 1.0
+        },
+        {
+            "query": "How can I customize request validation errors?",
+            "difficulty": "medium",
+            "relevant_chunk_ids": [
+                "1449",
+                "1448",
+                "1451"
+            ],
+            "retrieved_chunk_ids": [
+                "793",
+                "1233",
+                "1450",
+                "1449",
+                "1451"
+            ],
+            "hit_rate": 1,
+            "recall": 0.6667,
+            "mrr": 0.25
+        },
+        {
+            "query": "How does OAuth2 integrate with dependency injection in FastAPI?",
+            "difficulty": "hard",
+            "relevant_chunk_ids": [
+                "1727",
+                "1726",
+                "1701",
+                "1309",
+                "1744"
+            ],
+            "retrieved_chunk_ids": [
+                "1727",
+                "1084",
+                "1309",
+                "93",
+                "1711"
+            ],
+            "hit_rate": 1,
+            "recall": 0.4,
+            "mrr": 1.0
+        },
+        {
+            "query": "How can I authenticate users and protect endpoints using OAuth2 Bearer tokens?",
+            "difficulty": "hard",
+            "relevant_chunk_ids": [
+                "1768",
+                "1754",
+                "1767",
+                "1773"
+            ],
+            "retrieved_chunk_ids": [
+                "1767",
+                "1757",
+                "1768",
+                "1772",
+                "1754"
+            ],
+            "hit_rate": 1,
+            "recall": 0.75,
+            "mrr": 1.0
+        },
+        {
+            "query": "What is the execution order of middleware, dependencies, and background tasks in a FastAPI request?",
+            "difficulty": "hard",
+            "relevant_chunk_ids": [
+                "1479",
+                "1692",
+                "1482",
+                "878"
+            ],
+            "retrieved_chunk_ids": [
+                "1283",
+                "878",
+                "1479",
+                "1322",
+                "1482"
+            ],
+            "hit_rate": 1,
+            "recall": 0.75,
+            "mrr": 0.5
+        },
+        {
+            "query": "Why can't you use JSON body fields alongside File and Form parameters in the same endpoint?",
+            "difficulty": "hard",
+            "relevant_chunk_ids": [
+                "1571",
+                "1558",
+                "1576"
+            ],
+            "retrieved_chunk_ids": [
+                "1571",
+                "1575",
+                "1558",
+                "1555",
+                "1576"
+            ],
+            "hit_rate": 1,
+            "recall": 1.0,
+            "mrr": 1.0
+        },
+        {
+            "query": "When should I use async def instead of def for path operation functions?",
+            "difficulty": "hard",
+            "relevant_chunk_ids": [
+                "24",
+                "40",
+                "23",
+                "43",
+                "1707"
+            ],
+            "retrieved_chunk_ids": [
+                "40",
+                "34",
+                "1707",
+                "43",
+                "24"
+            ],
+            "hit_rate": 1,
+            "recall": 0.8,
+            "mrr": 1.0
+        },
+        {
+            "query": "What new features were introduced in FastAPI 0.115.0 for query, header, and cookie parameters?",
+            "difficulty": "hard",
+            "relevant_chunk_ids": [
+                "404",
+                "405",
+                "1391"
+            ],
+            "retrieved_chunk_ids": [
+                "1391",
+                "404",
+                "405",
+                "639",
+                "1292"
+            ],
+            "hit_rate": 1,
+            "recall": 1.0,
+            "mrr": 1.0
+        },
+        {
+            "query": "Can I declare dependencies inside a path operation decorator instead of function parameters?",
+            "difficulty": "hard",
+            "relevant_chunk_ids": [
+                "1677",
+                "1678",
+                "1679",
+                "1680",
+                "1681"
+            ],
+            "retrieved_chunk_ids": [
+                "1677",
+                "1678",
+                "1098",
+                "1057",
+                "1484"
+            ],
+            "hit_rate": 1,
+            "recall": 0.4,
+            "mrr": 1.0
+        },
+        {
+            "query": "How can I build access control using OAuth2 scopes and dependencies?",
+            "difficulty": "hard",
+            "relevant_chunk_ids": [
+                "1084",
+                "1085",
+                "1087",
+                "1090",
+                "1094",
+                "1095"
+            ],
+            "retrieved_chunk_ids": [
+                "1309",
+                "807",
+                "1090",
+                "1764",
+                "1087"
+            ],
+            "hit_rate": 1,
+            "recall": 0.3333,
+            "mrr": 0.3333
+        },
+        {
+            "query": "What happens to background tasks when dependencies with yield are used?",
+            "difficulty": "hard",
+            "relevant_chunk_ids": [
+                "878",
+                "1692",
+                "483"
+            ],
+            "retrieved_chunk_ids": [
+                "483",
+                "1695",
+                "878",
+                "484_1",
+                "1692"
+            ],
+            "hit_rate": 1,
+            "recall": 1.0,
+            "mrr": 1.0
+        },
+        {
+            "query": "Can I use the same FastAPI dependencies for both HTTP and WebSocket endpoints?",
+            "difficulty": "hard",
+            "relevant_chunk_ids": [
+                "1289",
+                "1304",
+                "1070"
+            ],
+            "retrieved_chunk_ids": [
+                "1289",
+                "1070",
+                "1293",
+                "1304",
+                "1064"
+            ],
+            "hit_rate": 1,
+            "recall": 1.0,
+            "mrr": 1.0
+        }
+    ]
+}

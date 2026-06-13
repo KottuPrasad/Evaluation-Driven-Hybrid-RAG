@@ -1,0 +1,298 @@
+[
+    {
+        "query": "path params thing",
+        "difficulty": "easy",
+        "relevant_chunk_ids": [
+            1503,
+            1504,
+            1493
+        ]
+    },
+    {
+        "query": "query params in url",
+        "difficulty": "easy",
+        "relevant_chunk_ids": [
+            1547,
+            1548,
+            1549
+        ]
+    },
+    {
+        "query": "req body fastapi",
+        "difficulty": "easy",
+        "relevant_chunk_ids": [
+            1380,
+            1383,
+            1387
+        ]
+    },
+    {
+        "query": "uploading files??",
+        "difficulty": "easy",
+        "relevant_chunk_ids": [
+            1554,
+            1559,
+            1561,
+            1571
+        ]
+    },
+    {
+        "query": "dependencys",
+        "difficulty": "easy",
+        "relevant_chunk_ids": [
+            1701,
+            93,
+            1284
+        ]
+    },
+    {
+        "query": "bg jobs",
+        "difficulty": "easy",
+        "relevant_chunk_ids": [
+            1318,
+            1283,
+            1321,
+            1319
+        ]
+    },
+    {
+        "query": "middleware stuff",
+        "difficulty": "easy",
+        "relevant_chunk_ids": [
+            1479,
+            1480,
+            1482
+        ]
+    },
+    {
+        "query": "response model thing",
+        "difficulty": "easy",
+        "relevant_chunk_ids": [
+            1580,
+            1596,
+            1593,
+            1595
+        ]
+    },
+    {
+        "query": "web socket thing",
+        "difficulty": "easy",
+        "relevant_chunk_ids": [
+            1064,
+            1067,
+            1304
+        ]
+    },
+    {
+        "query": "forms in fastapi",
+        "difficulty": "easy",
+        "relevant_chunk_ids": [
+            1576,
+            1574,
+            1565,
+            1558
+        ]
+    },
+    {
+        "query": "login users",
+        "difficulty": "medium",
+        "relevant_chunk_ids": [
+            1720,
+            1725,
+            1770,
+            1771,
+            1735,
+            1724
+        ]
+    },
+    {
+        "query": "validate route params",
+        "difficulty": "medium",
+        "relevant_chunk_ids": [
+            1493,
+            1506,
+            1495,
+            1499
+        ]
+    },
+    {
+        "query": "hide fields from response",
+        "difficulty": "medium",
+        "relevant_chunk_ids": [
+            1578,
+            1579,
+            1582,
+            1584,
+            1595
+        ]
+    },
+    {
+        "query": "file + form same endpoint",
+        "difficulty": "medium",
+        "relevant_chunk_ids": [
+            1569,
+            1571,
+            1572
+        ]
+    },
+    {
+        "query": "oauth permissions thing",
+        "difficulty": "medium",
+        "relevant_chunk_ids": [
+            1084,
+            1085,
+            1087,
+            1093,
+            1088
+        ]
+    },
+    {
+        "query": "how dependencies work",
+        "difficulty": "medium",
+        "relevant_chunk_ids": [
+            1701,
+            1709,
+            93,
+            1700
+        ]
+    },
+    {
+        "query": "run code after response",
+        "difficulty": "medium",
+        "relevant_chunk_ids": [
+            1318,
+            1283,
+            1321
+        ]
+    },
+    {
+        "query": "cookies fastapi",
+        "difficulty": "medium",
+        "relevant_chunk_ids": [
+            1398,
+            1396,
+            1392,
+            1399
+        ]
+    },
+    {
+        "query": "async routes",
+        "difficulty": "medium",
+        "relevant_chunk_ids": [
+            40,
+            23,
+            24,
+            33
+        ]
+    },
+    {
+        "query": "change validation errors",
+        "difficulty": "medium",
+        "relevant_chunk_ids": [
+            1449,
+            1448,
+            1451
+        ]
+    },
+    {
+        "query": "oauth deps together",
+        "difficulty": "hard",
+        "relevant_chunk_ids": [
+            1727,
+            1726,
+            1701,
+            1309,
+            1744
+        ]
+    },
+    {
+        "query": "jwt login setup",
+        "difficulty": "hard",
+        "relevant_chunk_ids": [
+            1768,
+            1754,
+            1767,
+            1773
+        ]
+    },
+    {
+        "query": "middleware dependency bg task order",
+        "difficulty": "hard",
+        "relevant_chunk_ids": [
+            1479,
+            1692,
+            1482,
+            878
+        ]
+    },
+    {
+        "query": "why cant json and file work with eachother",
+        "difficulty": "hard",
+        "relevant_chunk_ids": [
+            1571,
+            1558,
+            1576
+        ]
+    },
+    {
+        "query": "async verseues normall endpoint",
+        "difficulty": "hard",
+        "relevant_chunk_ids": [
+            24,
+            40,
+            23,
+            43,
+            1707
+        ]
+    },
+    {
+        "query": "new query head cokie featureeees",
+        "difficulty": "hard",
+        "relevant_chunk_ids": [
+            404,
+            405,
+            1391
+        ]
+    },
+    {
+        "query": "dependencies in decorattor",
+        "difficulty": "hard",
+        "relevant_chunk_ids": [
+            1677,
+            1678,
+            1679,
+            1680,
+            1681
+        ]
+    },
+    {
+        "query": "oauth access how control",
+        "difficulty": "hard",
+        "relevant_chunk_ids": [
+            1084,
+            1085,
+            1087,
+            1090,
+            1094,
+            1095
+        ]
+    },
+    {
+        "query": "yieldooo deps + bg tasks",
+        "difficulty": "hard",
+        "relevant_chunk_ids": [
+            878,
+            1692,
+            483
+        ]
+    },
+    {
+        "query": "websocket auth dependencyyare",
+        "difficulty": "hard",
+        "relevant_chunk_ids": [
+            1289,
+            1304,
+            1070
+        ]
+    }
+]

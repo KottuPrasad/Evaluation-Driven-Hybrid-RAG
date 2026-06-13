@@ -1,0 +1,442 @@
+{
+    "without_normalizer": {
+        "summary": {
+            "total_queries": 30,
+            "average_hit_rate": 0.6667,
+            "average_recall": 0.3156,
+            "average_mrr": 0.4372
+        },
+        "query_results": [
+            {
+                "original_query": "path params thing",
+                "final_query": "path params thing",
+                "hit_rate": 1,
+                "recall": 0.3333,
+                "mrr": 0.5
+            },
+            {
+                "original_query": "query params in url",
+                "final_query": "query params in url",
+                "hit_rate": 1,
+                "recall": 0.3333,
+                "mrr": 1.0
+            },
+            {
+                "original_query": "req body fastapi",
+                "final_query": "req body fastapi",
+                "hit_rate": 0,
+                "recall": 0.0,
+                "mrr": 0
+            },
+            {
+                "original_query": "uploading files??",
+                "final_query": "uploading files??",
+                "hit_rate": 1,
+                "recall": 0.25,
+                "mrr": 0.3333
+            },
+            {
+                "original_query": "dependencys",
+                "final_query": "dependencys",
+                "hit_rate": 1,
+                "recall": 0.3333,
+                "mrr": 0.3333
+            },
+            {
+                "original_query": "bg jobs",
+                "final_query": "bg jobs",
+                "hit_rate": 0,
+                "recall": 0.0,
+                "mrr": 0
+            },
+            {
+                "original_query": "middleware stuff",
+                "final_query": "middleware stuff",
+                "hit_rate": 1,
+                "recall": 0.6667,
+                "mrr": 1.0
+            },
+            {
+                "original_query": "response model thing",
+                "final_query": "response model thing",
+                "hit_rate": 1,
+                "recall": 0.75,
+                "mrr": 0.5
+            },
+            {
+                "original_query": "web socket thing",
+                "final_query": "web socket thing",
+                "hit_rate": 1,
+                "recall": 0.3333,
+                "mrr": 0.2
+            },
+            {
+                "original_query": "forms in fastapi",
+                "final_query": "forms in fastapi",
+                "hit_rate": 1,
+                "recall": 0.5,
+                "mrr": 0.3333
+            },
+            {
+                "original_query": "login users",
+                "final_query": "login users",
+                "hit_rate": 0,
+                "recall": 0.0,
+                "mrr": 0
+            },
+            {
+                "original_query": "validate route params",
+                "final_query": "validate route params",
+                "hit_rate": 1,
+                "recall": 0.5,
+                "mrr": 0.5
+            },
+            {
+                "original_query": "hide fields from response",
+                "final_query": "hide fields from response",
+                "hit_rate": 1,
+                "recall": 0.2,
+                "mrr": 0.25
+            },
+            {
+                "original_query": "file + form same endpoint",
+                "final_query": "file + form same endpoint",
+                "hit_rate": 1,
+                "recall": 1.0,
+                "mrr": 1.0
+            },
+            {
+                "original_query": "oauth permissions thing",
+                "final_query": "oauth permissions thing",
+                "hit_rate": 1,
+                "recall": 0.4,
+                "mrr": 1.0
+            },
+            {
+                "original_query": "how dependencies work",
+                "final_query": "how dependencies work",
+                "hit_rate": 1,
+                "recall": 0.25,
+                "mrr": 0.5
+            },
+            {
+                "original_query": "run code after response",
+                "final_query": "run code after response",
+                "hit_rate": 0,
+                "recall": 0.0,
+                "mrr": 0
+            },
+            {
+                "original_query": "cookies fastapi",
+                "final_query": "cookies fastapi",
+                "hit_rate": 0,
+                "recall": 0.0,
+                "mrr": 0
+            },
+            {
+                "original_query": "async routes",
+                "final_query": "async routes",
+                "hit_rate": 1,
+                "recall": 0.5,
+                "mrr": 1.0
+            },
+            {
+                "original_query": "change validation errors",
+                "final_query": "change validation errors",
+                "hit_rate": 0,
+                "recall": 0.0,
+                "mrr": 0
+            },
+            {
+                "original_query": "oauth deps together",
+                "final_query": "oauth deps together",
+                "hit_rate": 0,
+                "recall": 0.0,
+                "mrr": 0
+            },
+            {
+                "original_query": "jwt login setup",
+                "final_query": "jwt login setup",
+                "hit_rate": 0,
+                "recall": 0.0,
+                "mrr": 0
+            },
+            {
+                "original_query": "middleware dependency bg task order",
+                "final_query": "middleware dependency bg task order",
+                "hit_rate": 1,
+                "recall": 0.25,
+                "mrr": 1.0
+            },
+            {
+                "original_query": "why cant json and file work with eachother",
+                "final_query": "why cant json and file work with eachother",
+                "hit_rate": 0,
+                "recall": 0.0,
+                "mrr": 0
+            },
+            {
+                "original_query": "async verseues normall endpoint",
+                "final_query": "async verseues normall endpoint",
+                "hit_rate": 1,
+                "recall": 0.2,
+                "mrr": 1.0
+            },
+            {
+                "original_query": "new query head cokie featureeees",
+                "final_query": "new query head cokie featureeees",
+                "hit_rate": 1,
+                "recall": 0.3333,
+                "mrr": 0.3333
+            },
+            {
+                "original_query": "dependencies in decorattor",
+                "final_query": "dependencies in decorattor",
+                "hit_rate": 0,
+                "recall": 0.0,
+                "mrr": 0
+            },
+            {
+                "original_query": "oauth access how control",
+                "final_query": "oauth access how control",
+                "hit_rate": 1,
+                "recall": 0.3333,
+                "mrr": 1.0
+            },
+            {
+                "original_query": "yieldooo deps + bg tasks",
+                "final_query": "yieldooo deps + bg tasks",
+                "hit_rate": 1,
+                "recall": 1.0,
+                "mrr": 1.0
+            },
+            {
+                "original_query": "websocket auth dependencyyare",
+                "final_query": "websocket auth dependencyyare",
+                "hit_rate": 1,
+                "recall": 1.0,
+                "mrr": 0.3333
+            }
+        ]
+    },
+    "with_normalizer": {
+        "summary": {
+            "total_queries": 30,
+            "average_hit_rate": 0.8333,
+            "average_recall": 0.4428,
+            "average_mrr": 0.6083
+        },
+        "query_results": [
+            {
+                "original_query": "path params thing",
+                "final_query": "path parameters thing",
+                "hit_rate": 1,
+                "recall": 0.6667,
+                "mrr": 1.0
+            },
+            {
+                "original_query": "query params in url",
+                "final_query": "query parameters in URL",
+                "hit_rate": 1,
+                "recall": 0.6667,
+                "mrr": 1.0
+            },
+            {
+                "original_query": "req body fastapi",
+                "final_query": "request body FastAPI",
+                "hit_rate": 0,
+                "recall": 0.0,
+                "mrr": 0
+            },
+            {
+                "original_query": "uploading files??",
+                "final_query": "uploading files",
+                "hit_rate": 1,
+                "recall": 0.5,
+                "mrr": 0.5
+            },
+            {
+                "original_query": "dependencys",
+                "final_query": "dependencies",
+                "hit_rate": 1,
+                "recall": 0.3333,
+                "mrr": 1.0
+            },
+            {
+                "original_query": "bg jobs",
+                "final_query": "background jobs",
+                "hit_rate": 1,
+                "recall": 0.5,
+                "mrr": 0.5
+            },
+            {
+                "original_query": "middleware stuff",
+                "final_query": "middleware stuff",
+                "hit_rate": 1,
+                "recall": 0.6667,
+                "mrr": 1.0
+            },
+            {
+                "original_query": "response model thing",
+                "final_query": "response model thing -> response models",
+                "hit_rate": 1,
+                "recall": 0.75,
+                "mrr": 1.0
+            },
+            {
+                "original_query": "web socket thing",
+                "final_query": "websocket thing",
+                "hit_rate": 1,
+                "recall": 0.6667,
+                "mrr": 1.0
+            },
+            {
+                "original_query": "forms in fastapi",
+                "final_query": "forms in FastAPI",
+                "hit_rate": 1,
+                "recall": 0.5,
+                "mrr": 0.3333
+            },
+            {
+                "original_query": "login users",
+                "final_query": "login users",
+                "hit_rate": 0,
+                "recall": 0.0,
+                "mrr": 0
+            },
+            {
+                "original_query": "validate route params",
+                "final_query": "validate route parameters",
+                "hit_rate": 1,
+                "recall": 0.75,
+                "mrr": 0.3333
+            },
+            {
+                "original_query": "hide fields from response",
+                "final_query": "hide fields from response",
+                "hit_rate": 1,
+                "recall": 0.2,
+                "mrr": 0.25
+            },
+            {
+                "original_query": "file + form same endpoint",
+                "final_query": "file and form same endpoint",
+                "hit_rate": 1,
+                "recall": 1.0,
+                "mrr": 1.0
+            },
+            {
+                "original_query": "oauth permissions thing",
+                "final_query": "oauth2 permissions thing",
+                "hit_rate": 1,
+                "recall": 0.6,
+                "mrr": 1.0
+            },
+            {
+                "original_query": "how dependencies work",
+                "final_query": "how dependencies work",
+                "hit_rate": 1,
+                "recall": 0.25,
+                "mrr": 0.5
+            },
+            {
+                "original_query": "run code after response",
+                "final_query": "run code after response",
+                "hit_rate": 0,
+                "recall": 0.0,
+                "mrr": 0
+            },
+            {
+                "original_query": "cookies fastapi",
+                "final_query": "cookies in FastAPI",
+                "hit_rate": 0,
+                "recall": 0.0,
+                "mrr": 0
+            },
+            {
+                "original_query": "async routes",
+                "final_query": "asynchronous routes",
+                "hit_rate": 1,
+                "recall": 0.25,
+                "mrr": 1.0
+            },
+            {
+                "original_query": "change validation errors",
+                "final_query": "change validation errors",
+                "hit_rate": 0,
+                "recall": 0.0,
+                "mrr": 0
+            },
+            {
+                "original_query": "oauth deps together",
+                "final_query": "oauth2 dependencies together",
+                "hit_rate": 1,
+                "recall": 0.2,
+                "mrr": 0.5
+            },
+            {
+                "original_query": "jwt login setup",
+                "final_query": "JSON Web Token login setup",
+                "hit_rate": 1,
+                "recall": 0.25,
+                "mrr": 0.3333
+            },
+            {
+                "original_query": "middleware dependency bg task order",
+                "final_query": "middleware dependency background task order",
+                "hit_rate": 1,
+                "recall": 0.5,
+                "mrr": 0.5
+            },
+            {
+                "original_query": "why cant json and file work with eachother",
+                "final_query": "why can't JSON and file work with each other",
+                "hit_rate": 1,
+                "recall": 0.3333,
+                "mrr": 0.5
+            },
+            {
+                "original_query": "async verseues normall endpoint",
+                "final_query": "async versus normal endpoint",
+                "hit_rate": 1,
+                "recall": 0.6,
+                "mrr": 1.0
+            },
+            {
+                "original_query": "new query head cokie featureeees",
+                "final_query": "new query header cookies features",
+                "hit_rate": 1,
+                "recall": 0.6667,
+                "mrr": 1.0
+            },
+            {
+                "original_query": "dependencies in decorattor",
+                "final_query": "dependencies in decorator",
+                "hit_rate": 1,
+                "recall": 0.6,
+                "mrr": 0.5
+            },
+            {
+                "original_query": "oauth access how control",
+                "final_query": "oauth2 access control",
+                "hit_rate": 1,
+                "recall": 0.1667,
+                "mrr": 1.0
+            },
+            {
+                "original_query": "yieldooo deps + bg tasks",
+                "final_query": "yield dependencies + background tasks",
+                "hit_rate": 1,
+                "recall": 0.6667,
+                "mrr": 1.0
+            },
+            {
+                "original_query": "websocket auth dependencyyare",
+                "final_query": "websocket authentication dependency are",
+                "hit_rate": 1,
+                "recall": 1.0,
+                "mrr": 0.5
+            }
+        ]
+    }
+}

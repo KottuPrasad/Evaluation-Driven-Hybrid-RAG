@@ -3,7 +3,7 @@ from ingestion.markdown_cleaner import MarkdownCleaner
 
 from chunking.chunker import Chunker
 
-from retrieval.vector_store import VectorStore
+from indexing.vector_store import VectorStore
 
 
 loader = MarkdownLoader(
