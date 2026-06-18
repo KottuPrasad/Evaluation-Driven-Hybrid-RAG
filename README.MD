@@ -444,7 +444,7 @@ npm run dev
 
 ## 👨‍💻 Author
 
-**Prasad Kottu**
+**Kottu V B Krishna Prasad**
 
 Computer Science Student interested in Machine Learning, Information Retrieval, and AI Systems.
 
