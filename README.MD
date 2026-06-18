@@ -418,7 +418,7 @@ GROQ_API_KEY=your_groq_api_key_here
 Start the backend:
 
 ```bash
-python backend/main.py
+uvicorn backend.main:app --reload
 ```
 
 ### Frontend Setup

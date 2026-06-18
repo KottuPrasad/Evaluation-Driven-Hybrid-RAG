@@ -1,0 +1,5 @@
+venv/
+.git/
+Archive/
+Frontend/node_modules/
+__pycache__/
