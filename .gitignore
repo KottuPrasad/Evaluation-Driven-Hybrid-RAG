@@ -1,11 +1,10 @@
 venv/
+node_modules/
 __pycache__/
-
+Archive/
 .env
 
-vector_db/
+chunk_files/
+chunk_files.zip
 
-*.pkl
-*.index
-
-.ipynb_checkpoints/
+Frontend/.next/

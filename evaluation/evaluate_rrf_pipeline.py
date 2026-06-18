@@ -54,7 +54,7 @@ class RRFEvaluator:
     def load_dataset(self):
 
         with open(
-            "evaluation/datasets/clean_query_dataset.json",
+            "evaluation/datasets/Evaluation_dataset.json",
             "r",
             encoding="utf-8"
         ) as f:
@@ -88,7 +88,9 @@ class RRFEvaluator:
             ]
 
             relevant_chunk_ids = [
+
                 str(chunk_id)
+
                 for chunk_id in item[
                     "relevant_chunk_ids"
                 ]
@@ -147,9 +149,11 @@ class RRFEvaluator:
 
             query_results.append({
 
-                "query": query,
+                "query":
+                query,
 
-                "difficulty": difficulty,
+                "difficulty":
+                difficulty,
 
                 "relevant_chunk_ids":
                 relevant_chunk_ids,

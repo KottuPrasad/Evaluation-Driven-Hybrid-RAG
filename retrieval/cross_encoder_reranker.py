@@ -22,12 +22,21 @@ class CrossEncoderReranker:
 
         for chunk in chunks:
 
+            rerank_text = f"""
+        Title: {chunk.get('title', '')}
+        Section: {chunk.get('section', '')}
+        Subsection: {chunk.get('subsection', '')}
+
+        Content:
+        {chunk.get('text', '')}
+        """
+
             pairs.append(
                 [
                     query,
-                    chunk["text"]
+                    rerank_text
                 ]
-            )
+        )
 
         scores = self.model.predict(
             pairs

@@ -62,6 +62,39 @@ class HybridCrossEncoderRetriever:
             )
         )
 
+        print("\n===== RRF RESULTS =====\n")
+
+        for rank, chunk in enumerate(
+            rrf_results,
+            start=1
+        ):
+
+            print(
+                f"Rank: {rank}"
+            )
+
+            print(
+                f"Title: {chunk['title']}"
+            )
+
+            print(
+                f"Section: {chunk['section']}"
+            )
+
+            print(
+                f"Subsection: {chunk['subsection']}"
+            )
+
+            print()
+
+            print(
+                chunk["text"][:250]
+            )
+
+            print(
+                "\n" + "=" * 80
+            )
+
         final_results = (
             self.cross_encoder.rerank(
                 query=query,

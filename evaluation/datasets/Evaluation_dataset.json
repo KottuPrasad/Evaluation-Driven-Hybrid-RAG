@@ -1,0 +1,275 @@
+[
+    {
+        "query": "What is CORS and how do I enable it in FastAPI?",
+        "query_type": "documentation",
+        "difficulty": "easy",
+        "relevant_chunk_ids": [
+            "1400",
+            "1404"
+        ]
+    },
+    {
+        "query": "How do I override the default validation error response in FastAPI?",
+        "query_type": "documentation",
+        "difficulty": "easy",
+        "relevant_chunk_ids": [
+            "1449",
+            "1451"
+        ]
+    },
+    {
+        "query": "How do dependencies with yield work in FastAPI?",
+        "query_type": "documentation",
+        "difficulty": "easy",
+        "relevant_chunk_ids": [
+            "1685"
+        ]
+    },
+    {
+        "query": "How do I structure a large FastAPI application across multiple files using routers?",
+        "query_type": "documentation",
+        "difficulty": "medium",
+        "relevant_chunk_ids": [
+            "1327",
+            "1330",
+            "1340"
+        ]
+    },
+    {
+        "query": "How do sub-dependencies work in FastAPI and how does FastAPI resolve them?",
+        "query_type": "documentation",
+        "difficulty": "medium",
+        "relevant_chunk_ids": [
+            "1716",
+            "1717",
+            "1718"
+        ]
+    },
+    {
+        "query": "How do I use a class as a dependency in FastAPI?",
+        "query_type": "documentation",
+        "difficulty": "medium",
+        "relevant_chunk_ids": [
+            "1673",
+            "1674",
+            "1676"
+        ]
+    },
+    {
+        "query": "How do I write tests for FastAPI endpoints using TestClient?",
+        "query_type": "documentation",
+        "difficulty": "medium",
+        "relevant_chunk_ids": [
+            "1662",
+            "1302"
+        ]
+    },
+    {
+        "query": "How do middleware, dependencies with yield, and background tasks execute relative to each other in the FastAPI request lifecycle?",
+        "query_type": "documentation",
+        "difficulty": "hard",
+        "relevant_chunk_ids": [
+            "1692",
+            "1693",
+            "878"
+        ]
+    },
+    {
+        "query": "How do I add custom exception handlers in FastAPI and override the default validation error response format?",
+        "query_type": "documentation",
+        "difficulty": "hard",
+        "relevant_chunk_ids": [
+            "1447",
+            "1449",
+            "1451"
+        ]
+    },
+    {
+        "query": "How do FastAPI dependencies with yield manage setup and cleanup logic, and what happens when exceptions occur?",
+        "query_type": "documentation",
+        "difficulty": "hard",
+        "relevant_chunk_ids": [
+            "1685",
+            "1687",
+            "1691"
+        ]
+    },
+    {
+        "query": "What feature was introduced in FastAPI 0.135.0?",
+        "query_type": "release_notes",
+        "difficulty": "easy",
+        "relevant_chunk_ids": [
+            "189"
+        ]
+    },
+    {
+        "query": "When did FastAPI drop support for Python 3.9?",
+        "query_type": "release_notes",
+        "difficulty": "easy",
+        "relevant_chunk_ids": [
+            "207"
+        ]
+    },
+    {
+        "query": "What new parameter type did FastAPI 0.115.0 introduce support for using Pydantic models?",
+        "query_type": "release_notes",
+        "difficulty": "easy",
+        "relevant_chunk_ids": [
+            "404"
+        ]
+    },
+    {
+        "query": "What breaking change did FastAPI 0.132.0 introduce for JSON requests?",
+        "query_type": "release_notes",
+        "difficulty": "medium",
+        "relevant_chunk_ids": [
+            "198"
+        ]
+    },
+    {
+        "query": "What happened to ORJSONResponse and UJSONResponse in FastAPI 0.131.0?",
+        "query_type": "release_notes",
+        "difficulty": "medium",
+        "relevant_chunk_ids": [
+            "200"
+        ]
+    },
+    {
+        "query": "What status code change was made in FastAPI 0.122.0 for missing credentials in security classes?",
+        "query_type": "release_notes",
+        "difficulty": "medium",
+        "relevant_chunk_ids": [
+            "290"
+        ]
+    },
+    {
+        "query": "What dependency scoping feature was added in FastAPI 0.121.0?",
+        "query_type": "release_notes",
+        "difficulty": "medium",
+        "relevant_chunk_ids": [
+            "301"
+        ]
+    },
+    {
+        "query": "How did FastAPI 0.130.0 improve JSON response serialization performance and what was the mechanism behind it?",
+        "query_type": "release_notes",
+        "difficulty": "hard",
+        "relevant_chunk_ids": [
+            "201"
+        ]
+    },
+    {
+        "query": "What streaming capabilities were added across FastAPI 0.134.0 and 0.135.0 and what infrastructure changes were required?",
+        "query_type": "release_notes",
+        "difficulty": "hard",
+        "relevant_chunk_ids": [
+            "189",
+            "190"
+        ]
+    },
+    {
+        "query": "What major changes were introduced in FastAPI 0.121.0?",
+        "query_type": "release_notes",
+        "difficulty": "hard",
+        "relevant_chunk_ids": [
+            "301"
+        ]
+    },
+    {
+        "query": "How do I use a Pydantic model for query parameters and which version introduced this?",
+        "query_type": "mixed",
+        "difficulty": "easy",
+        "relevant_chunk_ids": [
+            "1521",
+            "404"
+        ]
+    },
+    {
+        "query": "What is strict content type checking in FastAPI and when was it added?",
+        "query_type": "mixed",
+        "difficulty": "easy",
+        "relevant_chunk_ids": [
+            "1035",
+            "198"
+        ]
+    },
+    {
+        "query": "How do I implement Server-Sent Events in FastAPI and which version was SSE support added?",
+        "query_type": "mixed",
+        "difficulty": "easy",
+        "relevant_chunk_ids": [
+            "1618",
+            "189"
+        ]
+    },
+    {
+        "query": "How do dependencies with yield work in FastAPI and what changed in 0.121.0 regarding their scope?",
+        "query_type": "mixed",
+        "difficulty": "medium",
+        "relevant_chunk_ids": [
+            "1685",
+            "1693",
+            "301"
+        ]
+    },
+    {
+        "query": "How do I stream JSON Lines in FastAPI and what Starlette version is required after 0.134.0?",
+        "query_type": "mixed",
+        "difficulty": "medium",
+        "relevant_chunk_ids": [
+            "1657",
+            "190"
+        ]
+    },
+    {
+        "query": "Why did FastAPI change the authentication error status code from 403 to 401 in 0.122.0 and how do I revert to the old behavior?",
+        "query_type": "mixed",
+        "difficulty": "medium",
+        "relevant_chunk_ids": [
+            "290",
+            "1203"
+        ]
+    },
+    {
+        "query": "How do I use dependencies with yield in FastAPI and what dependency scoping feature was introduced in FastAPI 0.121.0?",
+        "query_type": "mixed",
+        "difficulty": "medium",
+        "relevant_chunk_ids": [
+            "1685",
+            "1693",
+            "301"
+        ]
+    },
+    {
+        "query": "How does FastAPI 0.130.0's Pydantic-based JSON serialization interact with response models and what response classes are now deprecated?",
+        "query_type": "mixed",
+        "difficulty": "hard",
+        "relevant_chunk_ids": [
+            "201",
+            "1003",
+            "200"
+        ]
+    },
+    {
+        "query": "How did Pydantic v1 support change across FastAPI 0.126.0, 0.127.0 and 0.128.0 and what is the migration path?",
+        "query_type": "mixed",
+        "difficulty": "hard",
+        "relevant_chunk_ids": [
+            "1261",
+            "249",
+            "246",
+            "240",
+            "1264"
+        ]
+    },
+    {
+        "query": "How can I use Pydantic models for cookies and headers, and which FastAPI version introduced these capabilities?",
+        "query_type": "mixed",
+        "difficulty": "hard",
+        "relevant_chunk_ids": [
+            "404",
+            "1454",
+            "1392"
+        ]
+    }
+]

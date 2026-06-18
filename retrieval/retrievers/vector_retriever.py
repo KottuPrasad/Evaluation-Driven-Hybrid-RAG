@@ -29,10 +29,6 @@ class VectorRetriever:
             ),
             top_k
         )
-        
-        print(
-            f"\nTop Vector Score: {scores[0][0]:.4f}"
-        )
 
         results = []
 

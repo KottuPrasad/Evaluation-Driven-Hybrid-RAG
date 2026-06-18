@@ -35,7 +35,7 @@ while True:
         bm25=bm25,
         index=index,
         chunks=chunks,
-        top_k=8
+        top_k=15
     )
 
     print(

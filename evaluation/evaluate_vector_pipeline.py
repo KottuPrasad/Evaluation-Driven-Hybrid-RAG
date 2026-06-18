@@ -6,12 +6,12 @@ from evaluation.metrics import (
     EvaluationMetrics
 )
 
-from retrieval.pipelines.cross_encoder_retriever import (
-    HybridCrossEncoderRetriever
+from retrieval.retrievers.vector_retriever import (
+    VectorRetriever
 )
 
 
-class CrossEncoderEvaluator:
+class VectorEvaluator:
 
     def __init__(self):
 
@@ -20,7 +20,7 @@ class CrossEncoderEvaluator:
         )
 
         self.retriever = (
-            HybridCrossEncoderRetriever()
+            VectorRetriever()
         )
 
     def load_resources(self):
@@ -34,22 +34,12 @@ class CrossEncoderEvaluator:
                 f
             )
 
-        with open(
-            "vector_db/bm25.pkl",
-            "rb"
-        ) as f:
-
-            bm25 = pickle.load(
-                f
-            )
-
         index = faiss.read_index(
             "vector_db/faiss.index"
         )
 
         return (
             chunks,
-            bm25,
             index
         )
 
@@ -67,7 +57,7 @@ class CrossEncoderEvaluator:
 
     def evaluate(self):
 
-        chunks, bm25, index = (
+        chunks, index = (
             self.load_resources()
         )
 
@@ -83,7 +73,9 @@ class CrossEncoderEvaluator:
 
         for item in dataset:
 
-            query = item["query"]
+            query = item[
+                "query"
+            ]
 
             difficulty = item[
                 "difficulty"
@@ -96,25 +88,26 @@ class CrossEncoderEvaluator:
                 for chunk_id in item[
                     "relevant_chunk_ids"
                 ]
+
             ]
 
             results = (
                 self.retriever.search(
                     query=query,
-                    bm25=bm25,
                     index=index,
                     chunks=chunks,
-                    retrieval_top_k=8,
-                    rrf_top_k=10,
-                    final_top_k=5
+                    top_k=5
                 )
             )
 
             retrieved_chunk_ids = [
 
-                str(chunk["chunk_id"])
+                str(
+                    chunk["chunk_id"]
+                )
 
                 for chunk in results
+
             ]
 
             hit_rate = (
@@ -138,9 +131,17 @@ class CrossEncoderEvaluator:
                 )
             )
 
-            total_hit_rate += hit_rate
-            total_recall += recall
-            total_mrr += mrr
+            total_hit_rate += (
+                hit_rate
+            )
+
+            total_recall += (
+                recall
+            )
+
+            total_mrr += (
+                mrr
+            )
 
             query_results.append({
 
@@ -157,13 +158,23 @@ class CrossEncoderEvaluator:
                 retrieved_chunk_ids,
 
                 "hit_rate":
-                round(hit_rate, 4),
+                round(
+                    hit_rate,
+                    4
+                ),
 
                 "recall":
-                round(recall, 4),
+                round(
+                    recall,
+                    4
+                ),
 
                 "mrr":
-                round(mrr, 4)
+                round(
+                    mrr,
+                    4
+                )
+
             })
 
         total_queries = len(
@@ -195,6 +206,7 @@ class CrossEncoderEvaluator:
                 / total_queries,
                 4
             )
+
         }
 
         final_results = {
@@ -204,10 +216,11 @@ class CrossEncoderEvaluator:
 
             "query_results":
             query_results
+
         }
 
         with open(
-            "evaluation/results/cross_encoder_pipeline_summary.json",
+            "evaluation/results/vector_pipeline_summary.json",
             "w",
             encoding="utf-8"
         ) as f:
@@ -237,7 +250,7 @@ class CrossEncoderEvaluator:
 if __name__ == "__main__":
 
     evaluator = (
-        CrossEncoderEvaluator()
+        VectorEvaluator()
     )
 
     evaluator.evaluate()
