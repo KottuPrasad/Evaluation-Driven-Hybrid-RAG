@@ -112,6 +112,14 @@ The retrieval corpus consists of:
 | **Total**     | **1789** |
 
 ---
+## Chunking Strategy
+
+* Implemented a **structure-aware chunking strategy** using Markdown hierarchy (`Title → Section → Subsection`) instead of naive fixed-size splitting.
+* Preserved code blocks and technical examples to prevent fragmentation of documentation content.
+* Large sections were further split into **500-word chunks with 50-word overlap** to maintain context continuity.
+* Each chunk retained metadata including `chunk_id`, `file_name`, `title`, `section`, and `subsection` for source attribution and retrieval.
+* Generated **1,789 metadata-enriched chunks** used across BM25 retrieval, vector search, reranking, and evaluation.
+
 
 ## 🏗️ System Architecture
 
