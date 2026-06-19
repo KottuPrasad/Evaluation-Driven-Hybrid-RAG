@@ -8,7 +8,6 @@
 ![BM25](https://img.shields.io/badge/BM25-Sparse_Retrieval-green)
 ![Cross Encoder](https://img.shields.io/badge/Cross--Encoder-Re--Ranking-purple)
 ![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js)
-![Routing Accuracy](https://img.shields.io/badge/Routing_Accuracy-93.33%25-success)
 
 ---
 
@@ -23,6 +22,13 @@ Users can ask documentation questions, version-specific release note questions, 
 The project also includes a manually labeled benchmark dataset, an evaluation framework, a FastAPI backend, and a Next.js frontend for interactive querying and retrieval visualization.
 
 ---
+## Live Demo
+
+🌐 Frontend:
+https://evaluation-driven-hybrid-rag.vercel.app
+
+⚙️ Backend API:
+https://prasadkottu-evaluation-based-hybrid-rag.hf.space
 
 ## 🎯 Project Objectives
 

@@ -13,7 +13,6 @@ export const metadata: Metadata = {
   title: 'Evaluation-Driven Hybrid RAG System for FastAPI Documentation',
   description:
     'A retrieval engineering project combining BM25, dense retrieval, RRF fusion, cross-encoder reranking, and query understanding to improve answer accuracy over FastAPI documentation.',
-  generator: 'v0.app',
   icons: {
     icon: [
       {
@@ -23,10 +22,6 @@ export const metadata: Metadata = {
       {
         url: '/icon-dark-32x32.png',
         media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
       },
     ],
     apple: '/apple-icon.png',
